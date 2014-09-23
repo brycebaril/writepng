@@ -1,0 +1,38 @@
+{
+  "name": "writepnpng",
+  "version": "0.0.0",
+  "description": "Take an image read by http://npm.im/readimage and write into a png.",
+  "main": "writepng.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "keywords": [
+    "png",
+    "image",
+    "write",
+    "output"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "devDependencies": {
+    "readimage": "^1.1.1",
+    "tape": "^3.0.0"
+  },
+  "dependencies": {
+    "pngjs": "^0.4.0",
+    "terminus": "^1.0.10",
+    "xtend": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brycebaril/writepng.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brycebaril/writepng/issues"
+  },
+  "homepage": "https://github.com/brycebaril/writepng"
+}
