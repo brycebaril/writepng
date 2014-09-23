@@ -5,7 +5,7 @@ writepng
 
 Take an image in the format output by http://npm.im/readimage and write it to a png.
 
-NOTE: This library does not currently support APNG (animated pngs). If the image has multiple frames, only the first will be saved. 
+NOTE: This library does not currently support APNG (animated pngs). If the image has multiple frames, only the first will be saved.
 
 ```javascript
 var readimage = require("readimage")
@@ -34,7 +34,6 @@ Write a buffer that represents a png image generated from the imageBuffer.
 ---
 
 The same as above, but `options` can be defined to match those in [pngjs](http://npm.im/pngjs)
-```
 
 LICENSE
 =======
